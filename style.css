@@ -1,0 +1,98 @@
+@import url("components/container.css");
+@import url("components/bouton.css");
+@import url("components/avatar.css");
+
+body {
+	background-color: white;
+	font-family: 'Lato', sans-serif;
+	margin: 0px;
+}
+
+h1{
+	font-family: 'Comforter', cursive;
+	font-weight: 100;
+	letter-spacing: 5px;
+	margin: 16px;
+}
+.toptitle {
+	font-size: 32px;
+	color: black;
+	margin-left: 32px;
+}
+p{
+	color: black;
+	font-weight: 50;
+	letter-spacing: 5px;
+	font-size: 15px;
+	width: 200px;
+}
+form{
+	text-align: right;
+	color: white;
+	font-size: 15px;
+}
+h2{
+	color: black;
+	font-weight: 100;
+	letter-spacing: 10px;
+	font-size: 20px;
+	text-transform: uppercase;
+	width: 200px;
+}
+h3{
+	color: black;
+	font-weight: 100;
+	letter-spacing: 5px;
+	font-size: 10px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+.ilu{
+	height:0px;
+}
+
+.dd{
+	text-align: center;
+}	
+.moi{
+	text-align: center;
+}	
+.well_reunited  {
+	display: flex;
+	flex flex-direction: row;
+	flex flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-around;
+	height: 150px;
+}
+.well_reunited2  {
+	display: flex;
+	flex flex-direction: row;
+	flex flex-wrap: wrap;
+	justify-content: center;
+	height: 150px;
+	
+}
+.dd  {
+	display: flex;
+	flex flex-direction: row;
+	flex flex-wrap: wrap;
+	justify-content: space-around;
+	height: 120px;
+	
+}
+.photopaul {
+	display: flex;
+	flex flex-direction: row;
+	flex flex-wrap: wrap;
+	justify-content: center;
+	height: 400px;
+}
+.register {
+	height: 100px;
+}
